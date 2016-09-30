@@ -1,0 +1,49 @@
+html,body{width:100%;height:100%;overflow: hidden;}
+.left{float: left;}
+.right{float: right;}
+/*--------------------主页----------------------*/
+#mainpage{width:100%;height:100%;position: absolute;left:0;top:0;display: block;}
+/*头部--------------公共样式---*/
+.header{/*height:2.275rem;*/background:#ffc107;height:8%;position: relative;}
+.header p{color:#fff;font-weight: 900;font-size:1rem;height:100%;line-height: 2.275rem;text-align: center;}
+.header .return{width:40%;height:60%;background: url(../images/qpp_return.png) no-repeat left center;position: absolute;left:5%;top:20%}
+/*main部分---*/
+#main{height:92%;background:#eee;position: relative;}
+#main .tab{width:100%;height:1.15rem;display: -webkit-box;}
+#main .tab p{-webkit-box-flex: 1;text-align: center;font-size:0.75rem;line-height: 1.15rem;}
+.color{color:#FFC107;border-bottom: 1px solid #FFC107;}
+.tabbox{width:100%;height:25rem;position: relative;}
+.redbox,.quan{width:100%;height:25rem;display: none;position: absolute;bottom:0;left:0}
+#main .redbox{display: block;}
+#main .quan{background: green;}
+.redbox .box{height: 91%;width:100%;position: relative;}
+.redbox .box .no{width:100%;height:100%;background: url(../images/qpp_redbg.png) no-repeat center;background-size:100% ;position: absolute;left:0;top:0;display: none;}
+.redbox .box .have{width:100%;height:100%;background:#eee;position: absolute;left:0;top:0;display: none;}
+.redbox .box p{width:100%;height:2rem;background:#ccc;line-height: 2rem;text-align: center;color: #fff;font-size:0.75rem;margin-bottom: 0.5rem;}
+.redbox .footer{background: #fff;border-top:1px solid #ddd;height:9%}
+.redbox .footer .add{height:100%;line-height: 2.625rem;color:#ffc107;text-align: center;font-size:1rem;font-weight: 900;position: relative;}
+.redbox .footer .add span{display: block;width:1rem;height:1rem;border-radius: 50%;border:1px solid #ffc107;text-align: center;line-height: 1rem;position: absolute;left:28%;top:0.8rem}
+.quan .nobenefit{width:100%;height:100%;background:url(../images/qpp_nobenefitbg.png) no-repeat center;background-size:100%;position: absolute;left:0;top:0;display: none;}
+.quan .havebenefit{width:100%;height:100%;background:#eee;position: absolute;left:0;top:0;display: none;}
+.quan .havebenefit dl{width:100%;height:1rem;font-size:0.75rem;color:#999;line-height:1rem;}
+.quan .havebenefit dl dt{float: left;width:20%;margin-right: 1rem;}
+.quan .havebenefit dl img{width:100%;height:100%;}
+.quan .havebenefit dl dd{float: left;width:70%}
+.quan .havebenefit dl dd:nth-child(3){color:#F06E57;font-weight: 900;}
+/*--------------------兑换红包----------------------*/
+#duihuan{width:100%;height:100%;position: absolute;left:0;top:0;display: none;}
+#duihuan .duihuan_main{width: 100%;height:92%;background:#ccc}
+#duihuan .duihuan_main p{width:100%;height:2.25rem;}
+#duihuan .duihuan_main p input{width:100%;height:2.25rem;border:0;}
+#duihuan .duihuan_main .submitduihua{width:90%;height:2rem;border-radius: 5px;background:#FEC107;border: 0;margin:1rem 5%}
+	
+
+
+
+
+
+
+
+
+
+

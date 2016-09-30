@@ -1,0 +1,38 @@
+{
+	"data1":[
+		{"id":"1","home":"../images/zmfl21.jpg","img":"../images/hot1.jpg","name":"花千速花店","attr":"特价菜品","state":"抢购"},
+		{"id":"2","home":"../images/zmfl21.jpg","img":"../images/hot2.jpg","name":"贝贝龙虾","attr":"特价菜品","state":"抢购"},
+		{"id":"3","img":"../images/hot3.jpg","name":"麻辣天下（...","attr":"特价菜品","state":"抢购"},
+		{"id":"4","img":"../images/hot8.jpg","name":"卖虾.麻辣小...","attr":"特价菜品","state":"抢购"},
+		{"id":"5","img":"../images/hot4.jpg","name":"伊洛鲜花馆","attr":"特价菜品","state":"抢购"},
+		{"id":"6","img":"../images/hot5.jpg","name":"卖虾（中关","attr":"特价菜品","state":"抢购"},
+		{"id":"7","img":"../images/hot6.jpg","name":"麻辣火龙虾","attr":"特价菜品","state":"抢购"},
+		{"id":"8","img":"../images/hot7.jpg","name":"虾happy","attr":"特价菜品","state":"抢购"},
+		{"id":"9","img":"../images/hot8.jpg","name":"艺院小龙虾","attr":"特价菜品","state":"抢购"},
+		{"id":"10","img":"../images/hot3.jpg","name":"九上元","attr":"特价菜品","state":"抢购"}
+	],"data2":[
+		{"id":"11","home":"../images/zmfl21.jpg","img":"../images/zmfl1.jpg","name":"12朵混搭玫瑰礼盒","attr":"128","state":"抢购"},
+		{"id":"12","home":"../images/zmfl21.jpg","img":"../images/zmfl2.jpg","name":"36朵混搭玫瑰礼盒A","attr":"136","state":"抢购"},
+		{"id":"13","home":"../images/zmfl21.jpg","img":"../images/zmfl3.jpg","name":"21朵混搭玫瑰礼盒","attr":"130","state":"抢购"},
+		{"id":"14","home":"../images/zmfl21.jpg","img":"../images/zmfl4.jpg","name":"17朵混搭玫瑰礼盒","attr":"122","state":"抢购"},
+		{"id":"15","home":"../images/zmfl21.jpg","img":"../images/zmfl5.jpg","name":"33枝槟香玫瑰..","attr":"168","state":"抢购"},
+		{"id":"16","home":"../images/zmfl21.jpg","img":"../images/zmfl6.jpg","name":"热卖33枝槟香玫瑰 ","attr":"158","state":"抢购"},
+		{"id":"17","home":"../images/zmfl21.jpg","img":"../images/zmfl7.jpg","name":"33枝槟香玫瑰SA","attr":"178","state":"抢购"},
+		{"id":"18","home":"../images/zmfl21.jpg","img":"../images/zmfl1.jpg","name":"热卖槟香礼盒","attr":"160","state":"抢购"},
+		{"id":"19","home":"../images/zmfl21.jpg","img":"../images/zmfl2.jpg","name":"11枝槟香礼盒A款","attr":"156","state":"抢购"},
+		{"id":"20","home":"../images/zmfl21.jpg","img":"../images/zmfl3.jpg","name":"33朵槟香玫瑰","attr":"158","state":"抢购"},
+		{"id":"21","home":"../images/zmfl21.jpg","img":"../images/zmfl4.jpg","name":"33枝槟香玫瑰","attr":"174","state":"抢购"},
+		{"id":"22","home":"../images/zmfl21.jpg","img":"../images/zmfl5.jpg","name":"33枝槟香玫瑰","attr":"188","state":"抢购"},
+		{"id":"23","home":"../images/zmfl21.jpg","img":"../images/zmfl6.jpg","name":"11枝槟香礼盒AW","attr":"188","state":"抢购"},
+		{"id":"24","home":"../images/zmfl21.jpg","img":"../images/zmfl7.jpg","name":"19枝槟香礼盒AD","attr":"178","state":"抢购"},
+		{"id":"25","home":"../images/zmfl21.jpg","img":"../images/zmfl1.jpg","name":"11枝槟香礼盒AH","attr":"168","state":"抢购"},
+		{"id":"26","home":"../images/zmfl21.jpg","img":"../images/zmfl2.jpg","name":"33枝槟香礼盒AN","attr":"166","state":"抢购"},
+		{"id":"27","home":"../images/zmfl21.jpg","img":"../images/zmfl3.jpg","name":"19枝槟香礼盒AM","attr":"156","state":"抢购"},
+		{"id":"28","home":"../images/zmfl21.jpg","img":"../images/zmfl4.jpg","name":"16枝槟香礼盒AK","attr":"146","state":"抢购"},
+		{"id":"29","home":"../images/zmfl21.jpg","img":"../images/zmfl5.jpg","name":"23枝槟香礼盒AN","attr":"148","state":"抢购"},
+		{"id":"31","home":"../images/zmfl21.jpg","img":"../images/zmfl6.jpg","name":"17枝槟香礼盒L","attr":"169","state":"抢购"},	
+		{"id":"32","home":"../images/zmfl21.jpg","img":"../images/zmfl7.jpg","name":"19枝槟香礼盒AS","attr":"138","state":"抢购"},	
+		{"id":"33","home":"../images/zmfl21.jpg","img":"../images/zmfl8.jpg","name":"21枝槟香礼盒K","attr":"159","state":"抢购"},	
+		{"id":"34","home":"../images/zmfl21.jpg","img":"../images/zmfl9.jpg","name":"19枝槟香礼盒AN","attr":"179","state":"抢购"}
+	]
+}

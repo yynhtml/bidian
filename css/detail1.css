@@ -1,0 +1,50 @@
+	*{margin:0;padding:0;}
+	html,body{width:100%;height:100%;font-family:"微软雅黑";}
+	#box{width:100%;height:22.6rem;display:-webkit-box;-webkit-box-orient: vertical;}
+	#wrapper{width:100%;height:100%;overflow: hidden;-webkit-box-flex: 1; position: relative;}
+	.list{position:absolute;}
+	#box .sec{width:50%;box-sizing: border-box;float:left;height:8.75rem;text-align: center;color:#000;border-bottom:1px solid #b3b3b3;border-right:1px solid #b3b3b3;}
+	#box .sec:nth-child(2){border-top:1px solid #b3b3b3;}#box .sec:nth-child(1){border-top:1px solid #b3b3b3;}
+	#box .sec img{height:4rem;width:6rem;display:inline-block;margin-bottom: 0.5rem;}
+	#box .sec .name{font-size:0.85rem;line-height:2.2rem;}
+	#box .sec .attr{font-size:0.75rem;height:1rem;#ff4d3d;display:inline-block;float:left;margin-left:1rem;padding-top:0.2rem;color:#ff4d3d;}
+	#box .sec .state{width:2rem;height:1rem;font-size:0.7rem;background: #ff4d3d;color:#fff;display:inline-block;padding:0.1rem 0.2rem 0.1rem;float:left;border-radius:35px;margin-left:0.5rem;}
+
+	.refreshUp{text-align: center;margin-top:5px;font-size:.5rem;position:fixed;left:40%;top:3rem;color:#5D5D5D;display:none;}
+	header{width:100%;height:3rem;line-height:3rem; font-size:1rem;text-align:center;color:#f99a53;border-bottom: 1px solid #000;background:url(../images/zmbg8.jpg) 441px -138px;opacity: 0.95;}
+#nav{
+	height: 2.5rem;
+	width: 100%;
+	display: flex;
+	display: -webkit-flex;	
+	flex-direction: row;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	border-top: 1px solid #aeaeae;		
+}
+#nav .icon{
+	flex: 1;
+	-webkit-flex: 1;
+	height: 100%;
+	font-size:0.6rem ;
+	color:#969696;
+}
+#nav .icon p{
+	width: 100%;
+	text-align: center;
+	height: 1rem;
+	line-height: 1rem;
+}
+#nav .icon span{
+	display: block;
+	height: 1.5rem;
+	width: 100%;
+	text-align: center;
+	line-height: 1.5rem;
+	font-size: 1.2rem;
+}
+#nav .cur{
+	color:#ffc107;
+}
+
+

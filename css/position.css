@@ -1,0 +1,17 @@
+header{height: 2.05rem;width: 16rem;padding-top: 0.5rem;}
+header i.iconfont{display: block;float: left;height: 1.5rem;width: 1.5rem;margin-left: 0.7rem;line-height: 1.5rem;text-align: center;font-size: 0.8rem;}
+header label{border: 3px solid #CCCCCC;height: 1.35rem;display: block;float: left;width: 9.7rem;}
+header label s.iconfont{display: block;float: left;height: 1.35rem;width: 1.35rem;text-align: center;line-height: 1.35rem;text-decoration: none;font-size: 0.8rem;}
+header label input{border: 0;height: 1.35rem;width: 7.35rem;outline: none;font-size: 0.8rem;padding: 0 0.5rem;line-height: 1.35rem;}
+header span{display: block;float: left;height: 1.5rem;width: 2.75rem;background: #ffc107;border-radius: 0.5rem;margin-left: 0.625rem;text-align: center;line-height: 1.5rem;font-size: 0.8rem;color: #fff;text-decoration: none;}
+section{height: 2.65rem;background: #f3f3f3;text-align: center;line-height: 2.65rem;font-size: 0.7rem;}
+.lishi{border-top: 1px solid #999;margin-top: 1rem;}
+.lishi li{height: 2rem;border-bottom: 1px solid #ccc;line-height: 2rem;padding-left: 0.5rem;font-size: 0.7rem;color: #999;}
+.lishi li i.iconfont{display: block;height: 2rem;width: 1.3rem;float: left;text-align: center;font-size: 0.7rem;}
+#cle{text-align: center;}
+
+
+
+
+
+

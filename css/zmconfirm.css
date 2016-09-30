@@ -1,0 +1,397 @@
+#gao_box{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: absolute;
+}
+#gao_header{
+	display: -webkit-flex;
+	height: 2.25rem;
+	width: 100%;
+	background: #ffc107;
+	position: relative;
+}
+#gao_header .gao_txt{
+	height: 2.25rem;
+	width:100% ;
+	line-height: 2.25rem;
+	text-align: center;
+	color: #fff;
+	font-size: 1rem;	
+}
+#gao_header .gao_icon{
+	height: 2.25rem;
+	width: 2.25rem;
+	line-height: 2.25rem;
+	text-align: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-size: 1rem;
+	color: #fff;
+}
+
+#gao_content{
+	height:27rem ;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	background: #eeeeee;
+}
+#gao_content #gao_scroll{
+	width: 100%;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#gao_content .gao_address{
+	width: 100%;
+	height: 3.6rem;
+	border-bottom:0.1rem solid #ccc;
+	border-width: 100%;
+	background: #fff;
+}
+#gao_content .gao_address .gao_position{
+	height: 3.6rem;
+	line-height: 3.6rem;
+	width: 2.25rem;
+	text-align: center;
+	color: #ffc107;
+	float: left;
+	font-size: 1rem;	
+}
+#gao_content .gao_address .gao_adtxt{
+	float: left;
+	width: 11.5rem;
+}
+#gao_content .gao_adtxt p:nth-of-type(1){
+	width: 100%;
+	font-size: 0.9rem;
+	height: 1.4rem;
+	line-height: 1.4rem;
+}
+#gao_content .gao_adtxt p:nth-of-type(1) span{
+	display: block;
+	float: left;
+} 
+#gao_content #gao_sex{
+	margin: 0 0.2rem;
+}
+
+
+
+#gao_content .gao_adtxt p:nth-of-type(2){
+	width: 100%;
+	font-size: 0.8rem;
+	height: 1.4rem;
+}
+#gao_content .gao_adtxt p:nth-of-type(2) span{
+	display: block;
+	float: left;
+} 
+#gao_content #gao_tag{
+	margin-top: 0.5rem;
+	width: 1.7rem;
+	background: #56d176;
+	margin-right: 0.3rem;
+	border-radius: 0.1rem;
+	color: #fff;
+}
+#gao_content #detailad{
+	width: 9.5rem;
+}
+
+
+
+#gao_content .gao_address .gao_right{
+	height: 3.6rem;
+	line-height: 3.6rem;
+	width: 2.25rem;
+	text-align: center;
+	float: right;
+	font-size: 0.8rem;	
+	color: #969696;
+}
+
+#gao_content .gao_time{
+	margin:0.5rem  0;
+	height: 2.2rem;
+	width:100%;
+	line-height: 2.2rem;
+	padding-left: 0.5rem;
+	background: #fff url(../images/bg1.jpg) repeat-y ;
+}
+#gao_content .gao_time .gao_right{
+	height: 2.2rem;
+	line-height: 2.2rem;
+	width: 2.25rem;
+	text-align: left;
+	float: right;
+	font-size: 0.8rem;	
+	color: #969696;
+}
+#gao_content .gao_time .gao_left{
+	height: 2.2rem;
+	line-height: 2.2rem;
+	width: 2rem;
+	text-align: center;
+	float: left;
+	font-size: 1rem;	
+	color: #FFC107;
+}
+
+#gao_content .gao_time .gao_sendtxt{
+	height: 2.2rem;
+	line-height: 2.2rem;
+	width: 4rem;
+	text-align: center;
+	float: left;
+	font-size: 0.7rem;	
+	color: black;
+}
+#gao_content .gao_time .gao_sendtime2{
+	height: 2.2rem;
+	line-height: 2.2rem;
+	width: 7rem;
+	text-align: center;
+	float: left;
+	font-size: 0.6rem;	
+	color: #FFC107;
+}
+.gao_payway {
+	height:6.75rem;
+	width: 100%;
+	background: #fff;
+}
+.gao_payway ul li{
+	height: 2.25rem;
+	width: 100%;
+	line-height: 2.25rem;
+	box-sizing: border-box;
+	border-bottom: 1px solid #ccc;
+}
+.gao_payway ul li div{
+	float: left;
+}
+
+
+.gao_payway .gao_right{
+	height: 2.25rem;
+	line-height: 2.25rem;
+	width: 2.25rem;
+	text-align: center;
+	float: right;
+	font-size: 0.8rem;	
+	color: #969696;
+}
+
+.gao_payway .gao_paytxt{
+	height: 2.25rem;
+	line-height: 2.25rem;
+	width: 5rem;
+	margin-left: 0.5rem;
+	font-size: 0.8rem;	
+	color: black;
+}
+.gao_payway .gao_pay_text{
+	height: 2.25rem;
+	line-height: 2.25rem;
+	width: 6rem;
+	float: right;
+	font-size: 0.7rem;	
+	color: #969696;
+	text-align: right;
+}
+
+
+.gao_mark {
+	margin-top: 1rem;
+	height:6.75rem;
+	width: 100%;
+	background: #fff;
+}
+.gao_mark ul li{
+	height: 2.25rem;
+	width: 100%;
+	line-height: 2.25rem;
+	box-sizing: border-box;
+	border-bottom: 1px solid #ccc;
+}
+.gao_mark ul li div{
+	float: left;
+}
+
+
+.gao_mark .gao_right{
+	height: 2.25rem;
+	line-height: 2.25rem;
+	width: 2.25rem;
+	text-align: center;
+	float: right;
+	font-size: 0.8rem;	
+	color: #969696;
+}
+
+.gao_mark .gao_paytxt{
+	height: 2.25rem;
+	line-height: 2.25rem;
+	width: 5rem;
+	margin-left: 0.5rem;
+	font-size: 0.8rem;	
+	color: black;
+}
+.gao_mark .gao_pay_text{
+	height: 2.25rem;
+	line-height: 2.25rem;
+	width: 6rem;
+	margin-left:2rem;
+	font-size: 0.7rem;	
+	color: #969696;
+	text-align: right;
+}
+.gao_foot_send{
+	height: 2rem;
+	line-height: 2rem;
+	text-align: center;
+	font-size: 0.8rem;
+	color: black;
+	background: #fff;
+	margin:1rem 0 ;
+}
+.gao_foot_send span{
+
+	font-size: 0.7rem;
+	color: #969696;
+}
+.gao_last{
+	height: 4rem;
+	width: 100%;
+}
+
+
+
+.gao_shop{
+	height: 10rem;
+	width: 100%;
+	margin-top: 1rem;
+	background: #fff;
+}
+.gao_shop ul li{
+	height: 2rem;
+	line-height: 2rem;
+	width:95% ;
+	padding-left: 5%;	
+	box-sizing: border-box;
+	border-bottom: 1px solid #CCCCCC;
+}
+.gao_shop ul li p{
+	float: left;
+	font-size: 0.7rem;
+}
+.gao_shop ul li:nth-of-type(1) span{
+	display: block;
+	float: left;
+}
+.gao_shop ul li:nth-of-type(1) img{
+	display: block;
+
+	height: 1.9rem;
+}
+.gao_shop #gao_shopname{
+	height: 2rem;
+	line-height: 2rem;
+	font-size: 0.8rem;
+	margin-left: 5%;
+}
+#gao_shopname .img7{margin-left:-0.8rem;}
+.gao_shop .gao_num{
+	margin-left: 40%;
+}
+.gao_shop .gao_plast{
+	float: right;
+}
+#gao_pay{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 2.25rem;
+	font-size: 2.25rem;
+	text-align: center;
+	width: 100%;	
+	display: -webkit-flex;
+}
+#gao_pay .gao_price{
+	width: 67%;
+	height: 2.25rem;
+	background: #3d3d3d;
+	opacity: 0.8;
+	display: -webkit-flex;	
+}
+#gao_pay .gao_price p{
+	flex: 1;
+	height: 2.25rem;
+	line-height: 2.25rem;
+	-webkit-flex: 1;
+	font-size: 0.6rem;
+
+}
+#gao_pay .gao_price p:nth-of-type(1){
+	text-align: right;
+	color: #fff;
+	font-weight: bold;
+	margin-right: 0.2rem;
+
+}
+#gao_pay .gao_price p:nth-of-type(1) span{
+	display: block;
+	width: 1.2rem;
+	height: 0.75rem;
+	padding: 0 0.2rem ;
+	line-height: 0.75rem;
+	margin-top: 0.725rem;
+	border-right: 1px solid #ccc;
+	float: right;
+
+}
+#gao_pay .gao_price p:nth-of-type(2){
+	text-align: left;
+	color: #969696;
+}
+#gao_pay .gao_submit{
+	float: right;
+	height: 2.25rem;
+	line-height: 2.25rem;
+	text-align: center;
+	width: 33%;
+	font-size: 0.75rem;
+	background: #FFC107;
+	color: #FFF;
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

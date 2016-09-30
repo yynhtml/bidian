@@ -1,0 +1,153 @@
+#pbox{
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+#pbox .pheader{
+	width: 100%;
+	height:2.6rem;
+	background: #f9f9f9;
+	border-bottom: 1px solid #ddd;
+	
+}
+#pbox .pheader span{
+	float: left;
+	margin-left: 5%;
+	line-height: 2.6rem;
+	color: #ccc;
+}
+#pbox .pheader h3{
+	float: left;
+	margin-left: 13%;
+	line-height: 2.6rem;
+	color: #ffc107;
+	font-size: 1.3rem;
+}
+#pbox .pcon{
+	height: 26.5rem;
+	width: 100%;
+	background:url(../images/bj_collect.jpg) no-repeat left top;
+	background-size: 100% 100%;
+}
+#pbox .pcon p{
+	height: 100%;
+	width: 100%;
+	font-size: 1.0rem;
+	text-align: center;
+	font-weight: 600;
+	line-height: 31.5rem;
+	color: #333;
+}
+#content {
+
+	height: 26.5rem;
+	overflow: hidden;
+}
+
+#con_box {
+	width: 100%;
+	
+	overflow: hidden;
+}
+
+#con_box a {
+	display: block;
+}
+
+#content .box {
+	height: 6.5rem;
+	border-top: 1px solid #aeaeae;
+}
+
+#content .box dl {
+	overflow: hidden;
+}
+
+#content .box dt {
+	float: left;
+	height: 3.6rem;
+	width: 5rem;
+	padding: 0.5rem;
+}
+
+#content .box dt img {
+	display: block;
+	width: 5rem;
+	height: 3.6rem;
+}
+
+#content .box dd {
+	height: 4.6rem;
+	width: 10rem;
+	float: right;
+	position: relative;
+}
+
+#content .box dd h3 {
+	width: 10rem;
+	height: 3rem;
+	line-height: 3rem;
+}
+
+#content .box dd p {
+	width: 10rem;
+	height: 1rem;
+	line-height: 1rem;
+	color: #ff0f0f;
+	font-weight: bold;
+	font-size: 0.7rem;
+	font-weight: bold;
+}
+
+#content .box dd i {
+	display: block;
+	height: 2rem;
+	width: 2rem;
+	background: #fff;
+	position: absolute;
+	top: 1rem;
+	right: 2.5rem;
+	line-height: 0.8rem;
+	text-align: center;
+	font-size: 1.3rem;
+}
+
+.coll {
+	color: #FF2D4B;
+}
+
+.uncoll {
+	color: #ccc;
+}
+
+#content .box dd s {
+	display: block;
+	height: 1rem;
+	width: 1rem;
+	background: #ff2d4b;
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+	text-decoration: none;
+	line-height: 1rem;
+	text-align: center;
+	color: #fff;
+	font-size: 1rem;
+	border-radius: 0 0 1rem 1rem;
+}
+
+#content .box ul {
+	margin-top: 0.5rem;
+	width: 16rem;
+	text-align: center;
+	color: #666666;
+}
+
+#content .box ul li {
+	display: inline-block;
+}
+
+#content .box ul li span {
+	color: gold;
+	padding: 0 0.1rem;
+}

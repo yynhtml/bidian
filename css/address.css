@@ -1,0 +1,94 @@
+html,body{width:100%;height:100%;overflow: hidden;}
+.left{float: left;}
+.right{float: right;}
+/*未登录的页面------------------------------*/
+#unlogin{width:100%;height:100%;background: url(../images/qpp_unlogin.PNG) no-repeat;background-size:100% 100%;position: absolute;left:0;top:0;display: none;}
+#unlogin p{color:#ffc107;width:10rem;margin:0 auto;text-align: center;padding-top:50%;font-size:1rem}
+#unlogin .login{width:5.3rem;height:2.6rem;margin:24% auto;background:#ffc107;border-radius: 15px;text-align: center;line-height: 2.6rem;color:#fff;font-size:1rem}
+/*login登录后的页面-------------------------*/
+#login{width:100%;height:100%;background:blue;position: absolute;/*display: none;*/}
+/*头部--------------公共样式---*/
+.header{/*height:2.275rem;*/background:#ffc107;height:8%;position: relative;}
+.header p{color:#fff;font-weight: 900;font-size:1rem;height:100%;line-height: 2.275rem;text-align: center;}
+.header .return{width:40%;height:60%;background: url(../images/qpp_return.png) no-repeat left center;position: absolute;left:5%;top:20%}
+/*尾部-------*/
+#login #footer{/*height:2.625rem;*/background: #fff;border-top:1px solid #ddd;height:9%}
+#login #footer .add{height:100%;line-height: 2.625rem;color:#ffc107;text-align: center;font-size:1rem;font-weight: 900;position: relative;}
+#login #footer .add span{display: block;width:1rem;height:1rem;border-radius: 50%;border:1px solid #ffc107;text-align: center;line-height: 1rem;position: absolute;left:28%;top:0.8rem}
+/*main部分---*/
+#login #main{height:83%;background:#eee;position: relative;}
+#login #main .no{width:100%;height:100%;background:url(../images/qpp_nobg.png) no-repeat center;background-size:100%;display: none;}
+#login #main .no,#login #main .start,#login #main .have{width:100%;height:100%;position: absolute;left:0;top:0;display: none;}
+#login #main .start{background: #eee;display: block;}
+#login #main .start .xigua{width:2.4rem;height:2.4rem;background: url(../images/qpp_xigua.png);background-size:100% ;position: absolute;left:40%;top:40%;animation: xigua 2s linear infinite;}
+@keyframes xigua{
+	0%{transform:translateY(0);}
+	50%{transform:translateY(-100px);}
+	100%{transform:translateY(0);}
+}
+#login #main .have{background: #eee;}
+#login #main .have dl{border-bottom: 1px solid #ddd;padding:0.75rem;overflow: hidden;}
+#login #main .have dl dt{width:80%}
+#login #main .have dl .top{font-size:0.75rem;}
+#login #main .have dl .top span:nth-child(1){font-weight: 900;}
+#login #main .have dl .top span{margin-right:0.3rem}
+#login #main .have dl .bot b{float: left;width:1.35rem;height:0.7rem;/*background:#B4DBED;*/color:#fff;font-size:0.5rem;border-radius: 3px;text-align: center;}
+#login #main .have dl .bot span{float: left;font-size:0.6rem;color:#666;margin-left:0.3rem}
+#login #main .have dl dd{width:0.95rem;height:0.95rem;background:url(../images/qpp_bi.png) no-repeat center;background-size:100%}
+
+
+
+/*填写信息的页面------------------------------*/
+.write{width:100%;height:100%;position: absolute;display: none;}
+.write .message{height:92%;font-size:0.75rem;font-weight: 700;}
+.write .message p{height:2.15rem;border-top:1px solid #ddd;border-bottom:1px solid #ddd;margin-bottom: 0.25rem;line-height: 2.15rem;padding-left:5%}
+.write .message p:not(.sexP) input{border:0;height:1.8rem;line-height: 1.8rem;padding-left:0.25rem;font-size:0.75rem}
+.write .message .sexP label{height:2.15rem;line-height: 2.15rem;width:50%;float: left;text-align: center;}
+.write .message input[type='radio']{width:1rem;height:1rem;}
+.write .message .biao{background:url(../images/qpp_biaobg.png) no-repeat right center;}
+.write .message .biao b{float: right;margin: 0.5rem 1.5rem;color:#fff;font-size:0.3rem;height:1.2rem;line-height: 1.2rem;}
+.write .message .submitbtn{height:2.4rem;width:14.5rem;background:#ffc107;border-radius: 10px;margin:1rem auto;color:#fff;font-weight: 900;font-size:1rem;text-align: center;line-height: 2.4rem;}
+.write .biao_filter{width:100%;height:100%;background: rgba(9,9,9,0.5);position: absolute;left:0;top:0;display: none;}
+@keyframes biao_play{
+	from{bottom: -100%;}
+	to{bottom: 0;}
+}
+.biao_play{animation: biao_play 0.1s linear both;}
+@keyframes biao_play1{
+	from{bottom: 0;}
+	to{bottom: -100%;}
+}
+.biao_play1{animation: biao_play1 0.1s linear both;}
+.write  .biao_show{width:100%;height:40%;background:#fff;position: absolute;bottom: -100%;}
+.write .biao_show .biao_top{height:20%;background:#ccc;width:100%;color:#ffc107;font-weight: 500;font-size:0.75rem}
+.write .biao_show .biao_top span{padding:5%}
+.write .biao_show .biao_list{height:80%;width:100%;}
+.write .biao_show .biao_list ul{width:100%}
+/*.write .biao_show .biao_list li{height:1.7rem;}*/
+.write .biao_show .biao_list li label{width:100%;height:1.7rem;display: block;line-height: 1.7rem;text-align: center;color:#999;font-size:0.75rem;border-bottom: 1px solid #BDBDBD;}
+.write .biao_show .biao_list input{width:1rem;height:1rem; /*appearance: none;*/margin-left:0.5rem;margin-top:0.25rem}
+/*.write .biao_show .biao_list input:checked{background:red}
+.write .biao_show .biao_list input:hover{background:yellow}
+.write .biao_show .biao_list input:active{background:blue}
+.write .biao_show .biao_list input:after{background:green}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

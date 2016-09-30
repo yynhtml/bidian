@@ -1,0 +1,15 @@
+{
+	"data":[
+		{"id":"0","img":"../images/yyn_xiangman.jpg","title":"香满牛厨","youhui":"满25减8","mark":"&#xe623;","qisong":"¥120.0","peisong":"¥33.0","time":"30"},	
+		{"id":"1","img":"../images/yyn_wangji.jpg","title":"虾锅便当","youhui":"满20元减10元，满50...","mark":"&#xe623;","qisong":"¥200.0","peisong":"¥45.0","time":"60"},
+		{"id":"2","img":"../images/yyn_qingdian.jpg","title":"庆兴楼","youhui":"满30元减10元,满...","mark":"&#xe623;","qisong":"¥20.0","peisong":"¥5.0","time":"32"},
+		{"id":"3","img":"../images/yyn_xiaoman.jpg","title":"阳澄湖大闸蟹...","youhui":"满10元减5元","mark":"&#xe623;","qisong":"¥200.0","peisong":"¥45.0","time":"60"},
+		{"id":"4","img":"../images/yyn_maixia.jpg","title":"卖虾·麻辣小龙虾","youhui":"满100元减30元，满...","mark":"&#xe623;","qisong":"¥0.0","peisong":"¥30.0","time":"59"},
+		{"id":"5","img":"../images/yyn_shangcai.jpg","title":"上菜小馆","youhui":"满30元减9，满50减...","mark":"&#xe623;","qisong":"¥299.0","peisong":"¥20.0","time":"34"},
+		{"id":"6","img":"../images/yyn_mala.jpg","title":"麻辣天下","youhui":"满100元减25元,满...","mark":"&#xe623;","qisong":"¥0.0","peisong":"¥20.0","time":"50"},
+		{"id":"7","img":"../images/yyn_xuji.jpg","title":"许记粥铺","youhui":"满25元减5元,菏满...","mark":"&#xe623;","qisong":"¥5.0","peisong":"¥5.0","time":"30"},
+		{"id":"8","img":"../images/yyn_banmian.jpg","title":"安徽牛肉板面","youhui":"满25元减5元,满...","mark":"&#xe623;","qisong":"¥20.0","peisong":"¥5.0","time":"48"},
+		{"id":"9","img":"../images/yyn_mixian.jpg","title":"许氏过桥米线","youhui":"满25元减5元,满...","mark":"&#xe623;","qisong":"¥20.0","peisong":"¥5.0","time":"30"},
+		{"id":"10","img":"../images/yyn_jin.jpg","title":"晋西小吃","youhui":"满25元减5元,满...","mark":"&#xe623;","qisong":"¥20.0","peisong":"¥5.0","time":"36"}
+	]
+}
